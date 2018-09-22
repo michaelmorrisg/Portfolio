@@ -73,8 +73,21 @@ button:hover, a:hover{
 	align-items: center;
 	width: 100px;
 	margin: 0px auto;
-	margin: 0px 10px;
-	height: 180px;
+	margin: 0px 20px;
+	height: 200px;
+}
+@media screen and (max-width: 410px){
+	.icon-main {
+		height: 160px;
+		margin: 0px 10px;
+	}
+
+}
+@media screen and (max-width: 730px){
+	.icon-main {
+		height: 160px;
+		margin: 0px 10px;
+	}
 }
 .icons-main-div {
 	width: 80%;
@@ -2739,6 +2752,7 @@ input, select, textarea {
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			flex-direction: column;
 		}
 
 		.spotlight:nth-child(2n) {
@@ -2805,6 +2819,7 @@ input, select, textarea {
 				flex-direction: column;
 
 		}
+	}
 
 		@media screen and (max-width: 980px) {
 
@@ -3463,7 +3478,7 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
-			vertical-align: middle;
+			/* vertical-align: middle; */
 			width: 7em;
 		}
 
@@ -3906,9 +3921,6 @@ input, select, textarea {
 			#main > header {
 				padding: 8em 3em 6em 3em ;
 			}
-			#skills-header {
-				margin-left: 75px;
-			}
 			#skills-header > h2 {
 				text-align: center !important;
 			}
@@ -4046,10 +4058,10 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg"); */
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: url("../../images/brett-ritchie-550788-unsplash.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -4066,5 +4078,10 @@ input, select, textarea {
 		}
 		.icons, .major {
 			max-width: 1000px;
+		}
+	}
+	@media screen and (max-width: 3000px){
+		.icons-main-div{
+			max-width: 2000px;
 		}
 	}
