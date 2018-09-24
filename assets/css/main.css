@@ -46,7 +46,8 @@ blockquote, q {
 	stroke: black;
 }
 #skills-header {
-	text-align: center;
+	text-align: center !important;
+	margin: 0px auto;
 }
 
 	blockquote:before, blockquote:after, q:before, q:after {
