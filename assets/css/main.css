@@ -27,7 +27,16 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-
+.testing {
+	/* height: 100%;
+	width: 100%; */
+	height: 400px;
+	width: 600px;
+	background-image: url('../../images/GreyhouseMain.png');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
 ol, ul {
 	list-style: none;
 }
